@@ -4,7 +4,7 @@ session_start();
 $host = "localhost";    /* Host name */
 $user = "root";         /* User */
 $password = "";         /* Password */
-$dbname = "";   /* Database name */
+$dbname = "tugasmini";   /* Database name */
 
 // Create connection
 $con = mysqli_connect($host, $user, $password,$dbname);
