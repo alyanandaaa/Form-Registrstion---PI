@@ -1,0 +1,70 @@
+<style>
+body{
+  background: #CC9933;
+  color: white
+}
+
+#card {
+    background: #F8F8F8;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    height: 710px;
+    margin: 6rem auto 8.1rem auto;
+    width: 700px;
+  }
+  #card-content {
+    padding: 12px 44px;
+}
+
+label{
+      display: block;
+      margin: 0 0 10px;
+      color: $gray;
+      font-size: 12px;
+      font-weight: $semibold;
+      line-height: 1;
+      text-transform: uppercase;
+      letter-spacing: .2em;
+}
+
+h1{
+  font-family: verdana;
+  font-weight: $bold;
+  color: #CC9933;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.registerbtn:hover {
+  box-shadow: 0px 1px 18px #cc9900;
+}
+
+
+.registerbtn {
+  background-color: #CC9933;
+  color: white;
+  padding: 16px 20px;
+  margin: 3px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  font-family: verdana;
+  font-weight: 50;
+  font-size: 15px;
+  border: 1px solid rgb(216, 216, 216);
+  border-radius: .65em;
+  }
+</style>
