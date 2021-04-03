@@ -6,6 +6,7 @@ include "config.php";
 <head>
 	<title>Create Registration form with MySQL and PHP</title>
 
+
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 
@@ -15,6 +16,7 @@ include "config.php";
 	<!-- Bootstrap JS -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 	
+	<link rel="stylesheet" type="text/css" href="style.css">
 
 	<?php 
 	$error_message = "";$success_message = "";
@@ -76,17 +78,18 @@ include "config.php";
 	?>
 </head>
 <body>
-	<div class='container'>
+	 <div id="card">
+ 		<div id="card-content">
+  		<div id="card-title">
 		<div class='row'>
 			<div class='col-md-12'>
-				<h2></h2>
 			</div>
 
-			<div class='col-md-6' >
+			<div class='col-md-12' >
 					
 				<form method='post' action=''>
 
-					<h1>SignUp</h1>
+					<h1>SIGN UP</h1><br>s
 					<?php 
 					// Display Error message
 					if(!empty($error_message)){
@@ -112,29 +115,32 @@ include "config.php";
 					?>
 				
 					<div class="form-group">
-					    <label for="fname">First Name:</label>
+					   <label for="fname">First Name</label>
 					    <input type="text" class="form-control" name="fname" id="fname" required="required" maxlength="80">
 					</div>
 					<div class="form-group">
-					    <label for="lname">Last Name:</label>
+					    <label for="lname">Last Name</label>
 					    <input type="text" class="form-control" name="lname" id="lname" required="required" maxlength="80">
 					</div>
 					<div class="form-group">
-					    <label for="email">Email address:</label>
-					    <input type="email" class="form-control" name="email" id="email" required="required" maxlength="80">
+					    <label for="email">Email address</label>
+					    <input type="text" class="form-control" name="email" id="email" required="required" maxlength="80">
 					</div>
 					<div class="form-group">
-					    <label for="password">Password:</label>
+					    <label for="password">Password</label>
 					    <input type="password" class="form-control" name="password" id="password" required="required" maxlength="80">
 					</div>
 					<div class="form-group">
-					    <label for="pwd">Confirm Password:</label>
+					    <label for="pwd">Confirm Password</label>
 					    <input type="password" class="form-control" name="confirmpassword" id="confirmpassword" required="required" maxlength="80">
 					</div>
 					
-					<button type="submit" name="btnsignup" class="btn btn-default">Submit</button>
+					<center><button type="submit" name="btnsignup" class="registerbtn">SUBMIT</button></center><br>
 				</form>
 			</div>
+		</div>
+	</div>
+</div>
 			
 			
 		</div>
